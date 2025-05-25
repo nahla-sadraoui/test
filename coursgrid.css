@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100%;
+}
+.box1{ 
+    background-color: rgb(242, 53, 104);
+}
+.box2{ 
+    background-color: rgb(66, 78, 246);
+}
+.box3{ 
+    background-color: rgb(40, 227, 43);
+}
+main {
+    height: 100vh;
+    display: grid;
+    /*grid-template-columns: 300px 300px 50%; 1/2 du espace de div pour la 3éme colum*/
+    grid-template-columns: 1fr 1fr  ; 
+    /* 1fr 1fr 1fr  pour avoir un espace equia*/
+    /*   grid-template-columns: 300px 300px 1fr; la 3éme colum prend tout l'espace restante */
+    grid-template-rows: 1fr 1fr ; 
+    /**prend  pour chaque row 50vh (100vh/2) car nous avons ecrire fr le méme dimension **/
+grid-template-areas: "box1 box2" " box3 ." ;
+/*
+justify-items: center;
+align-items: center; positionnement au centre */
+
+}
+    /* .box3{
+       grid-column-start: 1;
+        grid-column-end: 3; on peut ecrire grid column :1/3;
+        grid-column: 1/3; } */
+   /*.box1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+   }
+    .box2{
+        grid-row: 2/4;
+        grid-column: 2/3;
+    }
+    .box3{
+        grid-column: 2/4;
+    } nous avons ajouter 1 column +1 row */
+     .box1{
+        grid-area: box1;
+        /*
+        align-self: end;
+       justify-self: center; to modifie one child */
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+
+     }
+      .box2{
+        grid-area: box2;
+        
+     }
+      .box3{
+        grid-area: box3;
+        
+     }

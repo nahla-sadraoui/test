@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 2.8rem;
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    background-color: rgb(138, 153, 248);
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+}
+nav ul {
+    float: right;
+}
+nav li {
+    float: left ;
+    margin: 0rem 4rem;
+   list-style-type: none;
+}
+.hero-section {
+    background-image:url("/images/pexels-john-photography-1283906596-24205807.jpg");
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+    text-shadow: 3px 3px 10px black;
+}
+.hero-section button {
+padding: 1rem 4rem;
+margin-top: 4rem;
+border: none ; 
+background-color: rgb(44, 71, 245);
+color: white;
+cursor: pointer;
+}
+.form-section{
+    text-align: center;
+}
+
+form input,form label,form textarea{
+    width: 50%;
+    display: block;
+    font-size: 2.4rem;
+}
+form input ,form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+   margin-bottom: 10rem;
+   border: none ; 
+ background-color: rgb(44, 71, 245);
+ color: white;
+   cursor: pointer;
+   width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

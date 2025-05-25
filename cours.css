@@ -1,0 +1,360 @@
+h1{
+    color: rgb(246, 167, 10);
+}
+.random h1{
+    color: aqua;
+}
+*{
+    font-size: 20px;
+}
+ul > li{
+list-style-type: none;
+}
+.nav-link{
+color: rgb(208, 25, 135);
+}
+.bar-link{
+    color: blue;
+}
+.nav-link li a {
+    color: rgb(28, 186, 17);
+}
+a{
+    color: rgb(11, 227, 148);
+}
+.links li:nth-child(3){
+    color: rgb(234, 13, 13);
+}
+
+.header{
+    color: rgb(210, 116, 9);
+}
+
+
+h1{
+    color: blue;
+}
+#head{
+    color: rgb(5, 233, 27) !important;
+}
+button{
+
+    padding: 20px 10px 20px 10px ;
+    background-color: brown;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    background-color: bisque;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid black;
+  
+}
+
+
+html {
+   font-size: 62.5%;
+}
+  
+.text-section {
+    font-size: 1.5rem;
+    /*1.5 x 16= 24 */
+}
+.text-section div {
+    font-size: 1.5em;
+      /*1.5 x 1.5 x 16 = 36 */
+
+      /*margin-top: 2rem;*/
+       /*1.5 x 1.5 x 16 *2  = 72 */
+}
+
+html {
+   font-size: 62.5%;
+}
+  
+.text-section {
+    font-size: 1.5rem;
+  
+}
+.text-section div {
+    font-size: 1.5rem;
+     
+}
+
+/*button */
+
+html{
+    font-size: 62.5%;
+}
+button{
+    color: rgb(185, 35, 240);
+    margin: 20rem;
+    padding: 2rem 4rem;
+    background-color: none;
+    border: 0.3rem rgb(149, 92, 248) solid ; 
+    font-size: 2.4rem;
+    
+    /* border-radius: 1rem; 
+    border-radius pr faire la forme de boutton
+    border-top-left-radius: 2rem;
+         */
+         border-radius: 50%;
+         width: 15rem;
+         height: 15rem;     
+}
+button{
+    color: rgb(252, 252, 252);
+    margin: 20rem;
+    padding: 2rem 4rem;
+    background-color: none;
+    border: 0.3rem rgb(16, 37, 172) solid ; 
+    font-size: 2.4rem;
+     border-radius: 1rem; 
+     background-color: rgb(16, 37, 172);
+            
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    background-color: rgb(144, 144, 21);
+}
+img {
+    width: 10rem;
+    height: 10rem;
+}
+ /*
+a{
+    background-color: bisque;
+    height: 3rem;
+    text-align: center;
+    display:block ;
+    padding-top: 1rem;}
+   emsemle */
+   a{
+    background-color: bisque;
+    display: inline-block;
+    height: 20rem;
+margin-top: 1rem;
+margin: 20rem;
+   }
+   /*separé*/
+   /*positionnement*/
+
+    html,body{
+    height: 100%;
+    }
+    .container{
+        background-color: blanchedalmond;
+        width: 80%;
+        height: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  }
+    .box1,
+    .box2,
+    .box3{
+        width: 20%;
+        height: 20%;
+      background-color: rgb(185, 125, 242);
+    }
+
+.box2{
+    background-color: rgb(175, 237, 41);
+}
+.box3 {
+    background-color: rgb(244, 220, 35);
+}
+.box1{
+  transform: translate(-100%);
+
+}
+/*position center*/
+.box2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  html,body{
+    height: 200%;
+    }
+    .container{
+        background-color: blanchedalmond;
+        width: 80%;
+        height: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  position: relative;
+  }
+    .box1,
+    .box2,
+    .box3{
+        width: 20%;
+        height: 20%;
+      background-color: rgb(185, 125, 242);
+    }
+
+.box2{
+    background-color: rgb(175, 237, 41);
+    position: relative;
+    left: 10rem;
+}
+.box3 {
+    background-color: rgb(244, 220, 35);
+    /*  position:fixed;
+    top: 0%;
+    left: 0%;
+   width: 100%;*/
+   position: sticky;
+   top: 0%;
+  
+}
+.box1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+/*PSEUDO CLASSES*/
+button :nth-child(3){
+    padding: 2rem 4rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    padding: 4rem 8rem;
+}
+button:focus{
+    background-color: rgb(244, 216, 8);
+}
+h1{
+    font-size: 4rem;
+}
+h1::before{
+    content: "welcome";
+
+}
+h1::after{
+    content: "girl";
+}
+/*boxs*/
+box1,
+ .box2,
+  .box3{
+    border: 2px solid black;
+    max-width: 60rem;
+    height: 30rem;
+    margin: 2rem;
+    font-size: 2.8rem;
+}
+.box2{
+    float: right;
+}
+.box1{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.box3{
+    width: 100%;
+}
+/*EXERCICE FINAL */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.clear{
+    clear: both;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 2.8rem;
+}
+button{
+    font-size: 1.8rem;
+}
+nav{
+    background-color: rgb(138, 153, 248);
+    color: white;
+    padding: 3rem;
+}
+nav h1{
+    float: left;
+}
+nav ul {
+    float: right;
+}
+nav li {
+    float: left ;
+    margin: 0rem 4rem;
+   list-style-type: none;
+}
+.hero-section {
+    background-image:url("/images/pexels-john-photography-1283906596-24205807.jpg");
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+    text-shadow: 3px 3px 10px black;
+}
+.hero-section button {
+padding: 1rem 4rem;
+margin-top: 4rem;
+border: none ; 
+background-color: rgb(44, 71, 245);
+color: white;
+cursor: pointer;
+}
+.form-section{
+    text-align: center;
+}
+
+form input,form label,form textarea{
+    width: 50%;
+    display: block;
+    font-size: 2.4rem;
+}
+form input ,form textarea{
+    margin: 2rem auto;
+    width: 50%;
+}
+form button{
+   margin-bottom: 10rem;
+   border: none ; 
+ background-color: rgb(44, 71, 245);
+ color: white;
+   cursor: pointer;
+   width: 50%;
+}
+
